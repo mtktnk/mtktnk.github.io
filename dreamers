@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>dreamersへようこそ</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <img class="header_logo" src="dreamers_logo.png">
+      </div>
+    </header>
+    <main>
+      <div class="top_img">
+        <div class="top_container">
+        <h1>あなたが見た夢を共有しよう。</h1>
+          <div class="btn_container">
+            <a class="top_btn" href="#popup1">新規登録</a>
+            <a class="top_btn" href="#">ログイン</a>
+          </div>
+        </div>
+      </div>
+      <div class="topics_background">
+        <div class="topics_wrapper">
+          <div class="topic one">
+            <img class="topic1_img" src="topic1.png">
+            <div class="topic_text1">
+              <h1>夢日記を書いてみよう。</h1>
+              <p>dreamersは眠っている間に見た「夢」の記録を投稿するSNSです。いい夢、こわい夢、ふしぎな夢、あるいはなんでもない夢をみた時、誰かにきいてほしいと思ったことはないでしょうか？ぜひdreamersでみんなと共有しましょう。</p>
+            </div>
+          </div>
+          <div class="topic two">
+            <img class="topic2_img" src="topic2.png">
+            <div class="topic_text2">
+              <h1>睡眠と夢の関係とは？</h1>
+              <p>あなたが夢を見るとき、脳はどんな状態で眠っているのでしょうか？dreamersの専用アプリでは、眠っているあいだにあなたの状態を測定し、当日のデータと夢日記と紐づけることができます。なぜ人は夢を見るのか、あなたのデータにヒントがあるかもしれませんね。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="signup">
+          <p>さあ、あなたもdreamersをはじめよう。</p>
+          <a class="top_btn" href="#popup1">新規登録</a>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_wrapper">
+        <div class="footer_container">
+          <img src="dreamers_logo.png">
+          <div class="footer_btn">
+            <a href="#">dreamersとは</a>
+            <a href="#">ヘルプセンター</a>
+            <a href="#">プライバシーポリシー</a>
+            <a href="#">規約</a>
+            <a href="#">広告について</a>
+            <a href="#">開発者</a>
+            </div>
+          <p class="copyright">©2019 dreamers</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- popup -->
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>ようこそdreamersへ！</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+      <input class="input username" type="text" placeholder="ユーザー名">
+      <input class="input mail" type="text" placeholder="メールアドレス">
+      <a class="signup_btn" href="#">新規登録</a>
+      <input class="check" type="checkbox" id="checkbox01" name="demo" /><label for="checkbox01">保存する</label>
+		</div>
+	</div>
+</div>
